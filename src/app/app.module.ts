@@ -7,7 +7,9 @@ import { MainComponent } from './portfolio/pages/main/main.component';
 import { AboutMeComponent } from './portfolio/pages/about-me/about-me.component';
 import { ContactComponent } from './portfolio/pages/contact/contact.component';
 import { ProjectsComponent } from './portfolio/pages/projects/projects.component';
+
 import { PortfolioModule } from './portfolio/portfolio.module';
+import { PrimeNgModule } from './prime-ng/prime-ng.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { PortfolioModule } from './portfolio/portfolio.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PortfolioModule
+    PortfolioModule,
+    PrimeNgModule
   ],
   providers: [],
   bootstrap: [AppComponent]

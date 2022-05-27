@@ -6,6 +6,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { MainComponent } from './pages/main/main.component';
+import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { MainComponent } from './pages/main/main.component';
   ],
   imports: [
     CommonModule,
-    PortfolioRoutingModule
+    PortfolioRoutingModule,
+    PrimeNgModule
   ],
   exports: [
     MainComponent,
