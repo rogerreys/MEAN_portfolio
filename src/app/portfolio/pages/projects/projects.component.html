@@ -1,13 +1,19 @@
 <div class="Project">
     <h2><a href="#Project">Proyectos destacados</a></h2>
-    <ul>
-        <li *ngFor="let project of projects">
-            <a target="_blank" href={{project.url}}>
+   
+    <p-carousel [value]="projects" [numVisible]="3" [numScroll]="3" [circular]="false">
+        <ng-template let-project pTemplate="item">
+            <div>
                 <img src="{{project.img}}" alt="{{project.altImg}}">
-                <h3>{{project.title}}</h3>
-                <p>{{project.description}}</p>        
-            </a>
-        </li>
-    </ul>
-    <p>Más proyectos próximamente ...</p>
+            </div>
+            <div>
+                <h4 class="mb-1">{{project.title}}</h4>
+                <h6 class="mt-0 mb-3">${{project.description}}</h6>
+            </div>
+            <div class="car-buttons mt-5">
+                <p-button type="button" styleClass="p-button-rounded p-button-text" icon="pi pi-github"></p-button>
+                <p-button type="button" styleClass="p-button-rounded p-button-text" icon="pi pi-globe"></p-button>
+            </div>
+        </ng-template>
+    </p-carousel>
 </div>
