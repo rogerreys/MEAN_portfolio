@@ -5,8 +5,8 @@ import { AccordionModule } from 'primeng/accordion';
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import { CarouselModule } from 'primeng/carousel';
+import { ChipModule } from 'primeng/chip';
 import { PanelModule } from 'primeng/panel';
-
 
 @NgModule({
   exports: [
@@ -14,6 +14,7 @@ import { PanelModule } from 'primeng/panel';
     ButtonModule,
     CardModule,
     CarouselModule,
+    ChipModule,
     PanelModule,
   ]
 })
