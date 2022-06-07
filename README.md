@@ -28,6 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 # HOW
-
-https://material.angular.io/components/badge/overview
 https://www.primefaces.org/primeng/setup

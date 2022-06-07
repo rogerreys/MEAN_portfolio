@@ -1,12 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainComponent } from './portfolio/pages/main/main.component';
-import { AboutMeComponent } from './portfolio/pages/about-me/about-me.component';
-import { ContactComponent } from './portfolio/pages/contact/contact.component';
-import { ProjectsComponent } from './portfolio/pages/projects/projects.component';
 
 import { PortfolioModule } from './portfolio/portfolio.module';
 import { PrimeNgModule } from './prime-ng/prime-ng.module';
@@ -17,9 +14,9 @@ import { PrimeNgModule } from './prime-ng/prime-ng.module';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     PortfolioModule,
-    PrimeNgModule
   ],
   providers: [],
   bootstrap: [AppComponent]
