@@ -9,6 +9,8 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { MainComponent } from './pages/main/main.component';
+import { MenuComponent } from './shared/menu/menu.component';
+import { SkillsComponent } from './pages/skills/skills/skills.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { MainComponent } from './pages/main/main.component';
     MainComponent,
     AboutMeComponent,
     ContactComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    MenuComponent,
+    SkillsComponent
   ],
   imports: [
     CommonModule,

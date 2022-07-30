@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  title: string = "ROGER RYS PORTFOLIO";
+  title: string = "PORTFOLIO";
   occupation: string = "Desarrollador Web Full-Stack";
   level: string = "Junior";
   msg: string = "Cumpliendo objetivos mutuos";

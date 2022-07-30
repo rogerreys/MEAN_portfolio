@@ -1,22 +1,9 @@
 <p-card>
-        <div class="AboutMe">
-            <div class="infoAboutMe">
-                <h2><a href="#AboutMe">Acerca de mi</a></h2>
-                <p>{{aboutMeParagraph}}</p>
-                <img src="asset/img/perfil.png">
-            </div>  
-            
-            <div class="skill">
-                <h2><a href="#AboutMe">Habilidades</a></h2>
-                <p-accordion>
-                    <p-accordionTab 
-                        header={{item.title}} 
-                        *ngFor="let item of abilities; let i=index">
-                        <ul *ngFor="let ski of item.skills">
-                            <li>{{ski}}</li>
-                        </ul> 
-                    </p-accordionTab>
-                </p-accordion>
-            </div>          
-        </div>
+    <div class="AboutMe">
+        <div class="infoAboutMe">
+            <h2><a href="#AboutMe">Acerca de mi</a></h2>
+            <p>{{aboutMeParagraph}}</p>
+            <img src="asset/img/perfil.png">
+        </div>       
+    </div>
 </p-card>

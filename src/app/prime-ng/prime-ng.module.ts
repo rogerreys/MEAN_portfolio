@@ -7,6 +7,8 @@ import { CardModule } from 'primeng/card';
 import { CarouselModule } from 'primeng/carousel';
 import { ChipModule } from 'primeng/chip';
 import { PanelModule } from 'primeng/panel';
+import { MenuItem } from 'primeng/api';
+import { TabMenuModule } from 'primeng/tabmenu';
 
 @NgModule({
   exports: [
@@ -16,6 +18,7 @@ import { PanelModule } from 'primeng/panel';
     CarouselModule,
     ChipModule,
     PanelModule,
+    TabMenuModule
   ]
 })
 export class PrimeNgModule { }

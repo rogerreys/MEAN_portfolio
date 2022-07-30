@@ -1,0 +1,14 @@
+<p-card>    
+    <div class="skill">
+        <h2><a href="#AboutMe">Habilidades</a></h2>
+        <p-accordion>
+            <p-accordionTab 
+                header={{item.title}} 
+                *ngFor="let item of abilities; let i=index">
+                <ul *ngFor="let ski of item.skills">
+                    <li>{{ski}}</li>
+                </ul> 
+            </p-accordionTab>
+        </p-accordion>
+    </div>     
+</p-card>
