@@ -29,3 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # HOW
 https://www.primefaces.org/primeng/setup
+
+# primeflex
+https://www.primefaces.org/primeblocks-ng/#/documentation
+https://www.primefaces.org/primeflex/

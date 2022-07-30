@@ -20,6 +20,7 @@ export class MenuComponent implements OnInit {
       { label: 'Proyectos', icon: 'pi pi-fw pi-file' },
       { label: 'Contactos', icon: 'pi pi-fw pi-cog' }
     ];
+
   }
 
 }
