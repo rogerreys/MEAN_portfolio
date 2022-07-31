@@ -1,13 +1,15 @@
 <p-card>
-    <div class="Contact">
-        <h2><a href="#Contact">Contacta conmigo</a></h2>
+    <div id="contact" class="Contact">
+        <h2>Contacta conmigo</h2>
         <!-- <nav>
             <ul *ngFor="let contact of contacts">
                 <li><a target="_blank" href="{{contact.url}}"><img src="{{contact.img}}" alt="{{contact.altImg}}"><br>{{contact.nickname}}</a></li>
             </ul>
         </nav> -->
-        <div class="flex align-items-center" *ngFor="let contact of contacts">
-            <p-chip label="{{contact.altImg}}" icon="pi {{contact.icon}}" styleClass="mr-2"></p-chip>
+        <div class="flex flex-row">
+            <div *ngFor="let contact of contacts">
+                <p-chip label="{{contact.altImg}}" icon="pi {{contact.icon}}" styleClass="mr-2"></p-chip>
+            </div>
         </div>
     </div>
 </p-card>

@@ -1,20 +1,28 @@
-<app-menu></app-menu>
-<p-card>
-    <ng-template pTemplate="header">
-        <h1 class="fc-toolbar">{{title}}</h1>
-    </ng-template>
+<!-- Menu -->
+<div class="fixed z-1">
+    <app-menu></app-menu>
+</div>
+<!-- Contenido -->
+<div id="header" class="h-2rem"></div>
+
+<div class="flex flex-column">
+    <p-card>
+        <ng-template pTemplate="header">
+            <h1 class="fc-toolbar">{{title}}</h1>
+        </ng-template>
+        
+        <div class="Intro">
+            <h2><a href="#Intro">{{occupation}}</a></h2>
+            <p>{{msg}}</p>
+        </div>
+    </p-card>
+    <br>
+    <app-skills></app-skills>
+    <app-projects></app-projects>
+    <br>
     
-    <div class="Intro">
-        <h2><a href="#Intro">{{occupation}}</a></h2>
-        <p>{{msg}}</p>
-    </div>
-</p-card>
-<br>
-<app-skills></app-skills>
-<app-projects></app-projects>
-<br>
-
-<app-about-me></app-about-me>
-<br>
-
-<app-contact></app-contact>
+    <app-about-me></app-about-me>
+    <br>
+    
+    <app-contact></app-contact>
+</div>
