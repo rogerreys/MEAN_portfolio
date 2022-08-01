@@ -25,6 +25,8 @@ export class MenuComponent implements OnInit {
   public navigateToSection(section: string) {
     window.location.hash = '';
     window.location.hash = section;
+    if(section == "header")
+      window.scroll({top:0})
   }
 
 }

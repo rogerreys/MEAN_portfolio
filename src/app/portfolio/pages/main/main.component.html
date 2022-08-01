@@ -6,16 +6,17 @@
 <div id="header" class="h-2rem"></div>
 
 <div class="flex flex-column">
-    <p-card>
+    <p-card class="cardHeight">
         <ng-template pTemplate="header">
             <h1 class="fc-toolbar">{{title}}</h1>
         </ng-template>
         
         <div class="Intro">
-            <h2><a href="#Intro">{{occupation}}</a></h2>
+            <h2>{{occupation}}</h2>
             <p>{{msg}}</p>
         </div>
     </p-card>
+    
     <br>
     <app-skills></app-skills>
     <app-projects></app-projects>

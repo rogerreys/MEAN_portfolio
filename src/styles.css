@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeflex/primeflex.css";
 
+:root {
+    --height: 500px;
+    --width: 1000px;
+}
+
 html,
 body {
     background-color: var(--surface-ground);
@@ -8,7 +13,6 @@ body {
     color: var(--text-color);
     font-size: 1.2rem;
     font-weight: normal;
-
 }
 
 h1 {
@@ -35,3 +39,10 @@ p {
     padding: var(--content-padding);
 }
 
+.cardHeight {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: right;
+    height: var(--height);
+}
